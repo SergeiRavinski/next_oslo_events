@@ -2,6 +2,8 @@ import Link from 'next/link';
 
 import classes from './event_item.module.css';
 
+function EventItem(props) {
+	const { title, image, date, location, id } = props;
 	const readeableDate = new Date(date).toLocaleDateString('en-US', {
 		date: 'numeric',
 		month: 'long',
