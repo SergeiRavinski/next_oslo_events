@@ -24,7 +24,7 @@ const DUMMY_EVENTS = [
 		title: 'Cars & Coffee 2023',
 		description:
 			'Come join us for another season of fun mornings of great cars and amazing coffee at Ekeberg park',
-		location: ' Ekebergveien 65, 1181 Oslo',
+		location: 'Ekebergveien 65, 1181 Oslo',
 		date: '2023-11-10',
 		image: 'images/cars_and_coffee.jpg',
 		isFeatured: true,
