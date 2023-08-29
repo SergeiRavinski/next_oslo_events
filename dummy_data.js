@@ -1,32 +1,32 @@
 const DUMMY_EVENTS = [
 	{
 		id: 'e1',
-		title: 'Programming for everyone',
+		title: 'Yogatur til Montenegro',
 		description:
-			'Everyone can learn to code! Yes, everyone! In this live event, we are going to go through all the key basics and get you started with programming as well.',
-		location: 'Somestreet 25, 12345 San Somewhereo',
-		date: '2021-05-12',
-		image: 'images/coding-event.jpg',
+			'Hjertelig VELKOMMEN med på yogareise 22 - 29 august i Montenegro, Budvas Riviera! 8 dager med yoga og mindfullness, læring, utvikling, mestring, hvile, naturopplevelser og minner for livet!',
+		location: 'Somestreet 25, 12345 Budva',
+		date: '2023-11-12',
+		image: 'images/yoga.jpg',
 		isFeatured: false,
 	},
 	{
 		id: 'e2',
-		title: 'Networking for introverts',
+		title: 'Kjelsås alpin sportsmesse 2023',
 		description:
-			"We know: Networking is no fun if you are an introvert person. That's why we came up with this event - it'll be so much easier. Promised!",
-		location: 'New Wall Street 5, 98765 New Work',
-		date: '2021-05-30',
-		image: 'images/introvert-event.jpg',
+			'Kjelsås Alpin holder sportsmesse 19-22 oktober i Stadionhallen på Grefsen stadion. Kjøp og salg av nytt og brukt vintersportsutstyr - Topp rådgivning - stort utvalg!',
+		location: 'Neptunveien 8-12, 0493 Oslo',
+		date: '2023-10-19',
+		image: 'images/ski_messe.jpg',
 		isFeatured: true,
 	},
 	{
 		id: 'e3',
-		title: 'Networking for extroverts',
+		title: 'Cars & Coffee 2023',
 		description:
-			'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
-		location: 'My Street 12, 10115 Broke City',
-		date: '2022-04-10',
-		image: 'images/extrovert-event.jpg',
+			'Come join us for another season of fun mornings of great cars and amazing coffee at Ekeberg park',
+		location: ' Ekebergveien 65, 1181 Oslo',
+		date: '2023-11-10',
+		image: 'images/cars_and_coffee.jpg',
 		isFeatured: true,
 	},
 ];
