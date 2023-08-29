@@ -2,6 +2,9 @@ import EventItem from './event_item';
 
 import classes from './event_list.module.css';
 
+function EventList(props) {
+	const { items } = props;
+
 	return (
 		<ul className={classes.list}>
 			{items.map((event) => (
@@ -16,3 +19,6 @@ import classes from './event_list.module.css';
 			))}
 		</ul>
 	);
+}
+
+export default EventList;
