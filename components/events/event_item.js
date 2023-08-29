@@ -2,6 +2,11 @@ import Link from 'next/link';
 
 import classes from './event_item.module.css';
 
+	const readeableDate = new Date(date).toLocaleDateString('en-US', {
+		date: 'numeric',
+		month: 'long',
+		year: 'numeric',
+	});
 	return (
 		<li className={classes.item}>
 			<img src={'/' + image} alt={id} />
