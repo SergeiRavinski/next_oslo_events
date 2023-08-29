@@ -30,3 +30,8 @@ const DUMMY_EVENTS = [
 		isFeatured: true,
 	},
 ];
+
+
+export function getAllEvents() {
+	return DUMMY_EVENTS;
+}
