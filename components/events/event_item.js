@@ -8,6 +8,8 @@ import classes from './event_item.module.css';
 		year: 'numeric',
 	});
 	const formattedAddress = location.replace(',', '\n');
+	const exploreLink = `/events/${id}`;
+
 	return (
 		<li className={classes.item}>
 			<img src={'/' + image} alt={id} />
