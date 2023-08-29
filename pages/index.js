@@ -1,3 +1,4 @@
+import { getFeaturedEvents } from '../dummy_data';
 function HomePage() {
 	return (
 		<div>
