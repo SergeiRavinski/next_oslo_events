@@ -7,6 +7,7 @@ import classes from './event_item.module.css';
 		month: 'long',
 		year: 'numeric',
 	});
+	const formattedAddress = location.replace(',', '\n');
 	return (
 		<li className={classes.item}>
 			<img src={'/' + image} alt={id} />
