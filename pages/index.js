@@ -1,9 +1,9 @@
-function StartingPage() {
+function HomePage() {
 	return (
 		<div>
-			<h1>The Starting Page</h1>
+			<h1>The Home Page</h1>
 		</div>
 	);
 }
 
-export default StartingPage;
+export default HomePage;
