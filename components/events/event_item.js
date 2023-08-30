@@ -21,6 +21,7 @@ function EventItem(props) {
 				<div className={classes.summary}>
 					<h2>{title}</h2>
 					<div className={classes.date}>
+						<DateIcon />
 						<time>{readeableDate}</time>
 					</div>
 					<div className={classes.address}>
