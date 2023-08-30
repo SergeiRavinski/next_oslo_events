@@ -28,7 +28,9 @@ function EventItem(props) {
 					</div>
 				</div>
 				<div className={classes.actions}>
-					<Link href={exploreLink}>Explore Event</Link>
+					<Button link={exploreLink}>
+						<span>Explore Event</span>
+					</Button>
 				</div>
 			</div>
 		</li>
