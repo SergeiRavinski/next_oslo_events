@@ -25,6 +25,7 @@ function EventItem(props) {
 						<time>{readeableDate}</time>
 					</div>
 					<div className={classes.address}>
+						<AddressIcon />
 						<address>{formattedAddress}</address>
 					</div>
 				</div>
