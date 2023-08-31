@@ -3,7 +3,7 @@ const DUMMY_EVENTS = [
 		id: 'e1',
 		title: 'Yogatur til Montenegro',
 		description:
-			'Hjertelig VELKOMMEN med på yogareise 22 - 29 august i Montenegro, Budvas Riviera! 8 dager med yoga og mindfullness, læring, utvikling, mestring, hvile, naturopplevelser og minner for livet!',
+			'Hjertelig velkommen med på yogareise 22 - 29 august i Montenegro, Budvas Riviera! 8 dager med yoga og mindfullness, læring, utvikling, mestring, hvile, naturopplevelser og minner for livet!',
 		location: 'Somestreet 25, 12345 Budva',
 		date: '2023-11-12',
 		image: 'images/yoga.jpg',
@@ -11,7 +11,7 @@ const DUMMY_EVENTS = [
 	},
 	{
 		id: 'e2',
-		title: 'Kjelsås alpin sportsmesse 2023',
+		title: 'Kjelsås alpin sportsmesse 2024',
 		description:
 			'Kjelsås Alpin holder sportsmesse 19-22 oktober i Stadionhallen på Grefsen stadion. Kjøp og salg av nytt og brukt vintersportsutstyr - Topp rådgivning - stort utvalg!',
 		location: 'Neptunveien 8-12, 0493 Oslo',
