@@ -1,3 +1,5 @@
+import { getAllEvents } from '../../dummy_data';
+
 import EventList from '../../components/events/event_list';
 
 function AllEventsPage() {
