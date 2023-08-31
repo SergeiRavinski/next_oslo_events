@@ -1,4 +1,8 @@
+import EventList from '../../components/events/event_list';
+
 function AllEventsPage() {
+	const events = getAllEvents();
+
 	return (
 		<div>
 			<h1>All Events</h1>
