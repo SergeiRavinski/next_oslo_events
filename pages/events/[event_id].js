@@ -2,6 +2,7 @@ import { Fragment } from 'react';
 import { useRouter } from 'next/router';
 
 import { getEventById } from '../../dummy_data';
+import EventSummary from '../../components/event_detail/event_summary';
 function EventDetailPage() {
 	const router = useRouter();
 	if (!event) {
