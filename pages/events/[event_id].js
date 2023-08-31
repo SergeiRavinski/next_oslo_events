@@ -8,6 +8,9 @@ import EventContent from '../../components/event_detail/event_content';
 
 function EventDetailPage() {
 	const router = useRouter();
+	const eventId = router.query.event_id;
+	const event = getEventById(eventId);
+
 	if (!event) {
 		return <p>No Event Found!</p>;
 	}
