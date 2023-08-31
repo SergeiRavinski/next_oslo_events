@@ -1,7 +1,11 @@
+import { useRef } from 'react';
+
 import Button from '../ui/button';
 import classes from './events_search.module.css';
 
 function EventsSearch(props) {
+	const yearInputRef = useRef();
+	const monthInputRef = useRef();
 	return (
 		<form id={classes.form}>
 			<div className={classes.controls}>
