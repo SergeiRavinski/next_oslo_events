@@ -4,6 +4,8 @@ import { useRouter } from 'next/router';
 import { getEventById } from '../../dummy_data';
 import EventSummary from '../../components/event_detail/event_summary';
 import EventLogistics from '../../components/event_detail/event_logistics';
+import EventContent from '../../components/event_detail/event_content';
+
 function EventDetailPage() {
 	const router = useRouter();
 	if (!event) {
