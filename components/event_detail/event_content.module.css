@@ -1,9 +1,8 @@
 .content {
 	font-size: var(--small-text-size);
 	color: var(--primary-dark);
-  width: 90%;
-  max-width: 40em;
-  margin: auto;
-  margin-top: 8rem;
-  text-align: center;
+	width: 90%;
+	max-width: 40rem;
+	margin: auto;
+	text-align: center;
 }

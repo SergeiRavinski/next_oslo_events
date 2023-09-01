@@ -1,16 +1,19 @@
 .header {
 	width: 100%;
+	position: sticky;
+	top: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
-	padding: 1rem 10%;
+	padding: 1rem 5%;
 	height: 5rem;
 	background-color: var(--quartery-dark);
+	backdrop-filter: blur(1rem);
+	box-shadow: 0 0.1rem 0.5rem var(--primary-dark);
 }
 
 .logo {
-	font-size: 1.5rem;
-	color: white;
+	font-size: var(--large-text-size);
 	font-family: 'Fira', sans-serif;
 	height: 100%;
 	display: flex;
