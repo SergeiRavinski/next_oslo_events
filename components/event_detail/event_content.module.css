@@ -1,6 +1,6 @@
 .content {
-  font-size: 1.5rem;
-  color: #3a3a3a;
+	font-size: var(--small-text-size);
+	color: var(--primary-dark);
   width: 90%;
   max-width: 40em;
   margin: auto;

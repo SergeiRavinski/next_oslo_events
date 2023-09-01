@@ -1,12 +1,10 @@
 .logistics {
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0.2rem 0.8rem var(--primary-dark);
   border-radius: 6px;
-  background-color: #2b2b2b;
+	background-color: var(--primary-dark);
   padding: 2rem;
   max-width: 50rem;
-  width: 80%;
-  margin: -3rem auto;
-  color: #d5eeeb;
+	color: var(--primary-light);
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -19,7 +17,7 @@
   height: 10rem;
   border-radius: 50%;
   overflow: hidden;
-  border: 5px solid white;
+	border: 2px solid var(--primary-light);
 }
 
 .image img {
