@@ -1,0 +1,17 @@
+:root {
+	--extra-large-text-size: 2.441rem;
+	--large-text-size: 1.563rem;
+	--medium-text-size: 1.25rem;
+	--small-text-size: 1rem;
+	--extra-small-text-size: 0.8rem;
+
+	--primary-dark: #26292a;
+	--secondary-dark: #546a7b;
+	--tertiary-dark: #62929e;
+	--quartery-dark: rgba(0, 0, 0, 0.85);
+
+	--primary-light: #f0f0f0;
+	--secondary-light: #c6c5b9;
+
+	--font-family: 'Open Sans', 'Lato', sans-serif;
+}
