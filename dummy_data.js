@@ -1,10 +1,9 @@
 const DUMMY_EVENTS = [
 	{
 		id: 'event1',
-		title: 'Yogatur til Montenegro',
-		description:
-			'Hjertelig velkommen med på yogareise 22 - 29 august i Montenegro, Budvas Riviera! 8 dager med yoga og mindfullness, læring, utvikling, mestring, hvile, naturopplevelser og minner for livet!',
-		location: 'Somestreet 25, 12345 Budva, Montenegro',
+		title: 'Yoga i Torsovparken',
+		description: 'Velkommen til utendørs yoga i Ekebergparken!',
+		location: 'Kongsveien 23, Oslo, Norway',
 		date: '2023-11-12',
 		image: 'images/yoga.jpg',
 		isFeatured: false,
@@ -41,10 +40,10 @@ const DUMMY_EVENTS = [
 	},
 	{
 		id: 'event5',
-		title: 'Rudskogen Race Festival',
+		title: 'Oslo Race Festival',
 		description:
 			'It is fast approaching the years last action-packed Race Festival at Rudskogen Motorsenter! As always, this weekend will be packed with fierce driving, exciting competitions and action from morning to night. You will have the opportunity to see some of Scandinavias best drivers in racing and drifting give it their all on the track.',
-		location: 'Motorsportveien 180, 0234 Rakkestad, Norway',
+		location: 'Motorsportveien 180, 0434 Oslo, Norway',
 		date: '2024-03-05',
 		image: 'images/gatebil.jpg',
 		isFeatured: false,
