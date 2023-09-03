@@ -2,7 +2,7 @@
 
 This is a web application where users can find, filter or get detailed information about the meetups.
 
-![Screenshot of the website](/public/images/srmeetupsnext.png)
+![Screenshot of the website](/public/images/srosloevents_screenshot.png)
 
 ## About the project
 
