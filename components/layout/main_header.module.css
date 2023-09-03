@@ -13,7 +13,7 @@
 }
 
 .logo {
-	font-size: var(--large-text-size);
+	font-size: var(--medium-text-size);
 	font-family: 'Fira', sans-serif;
 	height: 100%;
 	display: flex;
@@ -30,15 +30,15 @@
 .navigation a {
 	text-decoration: none;
 	color: var(--primary-light);
-	font-size: 1rem;
+	font-size: var(--medium-text-size);
 }
 
 @media (min-width: 768px) {
 	.logo {
-		font-size: 2.5rem;
+		font-size: var(--large-text-size);
 	}
 
 	.navigation a {
-		font-size: 1.5rem;
+		font-size: var(--large-text-size);
 	}
 }
