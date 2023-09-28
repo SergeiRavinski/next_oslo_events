@@ -1,5 +1,6 @@
-import { Fragment } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
+import useSWR from 'swr';
 
 import { getFilteredEvents } from '../../dummy_data';
 import EventList from '../../components/events/event_list';
