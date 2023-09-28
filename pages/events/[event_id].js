@@ -36,4 +36,15 @@ function EventDetailPage() {
 	);
 }
 
+export async function getStaticProps(context) {
+	const eventId = context.params.event_id;
+	const event = await getEventById(eventId);
+
+	return {
+		props: {
+			selectedEvent: event,
+		},
+	};
+}
+
 export default EventDetailPage;
