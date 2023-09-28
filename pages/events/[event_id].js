@@ -47,4 +47,14 @@ export async function getStaticProps(context) {
 	};
 }
 
+export async function getStaticPaths() {
+	const events = await getAllEvents();
+	const paths = events.map((event) => ({ params: { event_id: event.id } }));
+
+	return {
+		paths: paths,
+		fallback: false,
+	};
+}
+
 export default EventDetailPage;
